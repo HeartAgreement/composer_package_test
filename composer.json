@@ -1,0 +1,23 @@
+{
+    "name": "rvyou/composer_package_test",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "HeartAgreement",
+            "email": "rvyou@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require":{
+      "php":">=7.0.0"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Test\\Package\\": "src/test"
+        }
+    }
+}
